@@ -72,7 +72,7 @@ install_selected_version() {
 
 # Function to download and install RTT
 install_rtt() {
-    wget "https://raw.githubusercontent.com/radkesvat/ReverseTlsTunnel/master/scripts/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
+    wget "https://raw.githubusercontent.com/arah99/ReverseTlsTunnel/master/scripts/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
 }
 
 
@@ -92,9 +92,9 @@ install_rtt_custom() {
     printf "\n"
 
     case $(uname -m) in
-        x86_64)  URL="https://github.com/radkesvat/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_amd64.zip" ;;
-        arm)     URL="https://github.com/radkesvat/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_arm64.zip" ;;
-        aarch64) URL="https://github.com/radkesvat/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_arm64.zip" ;;
+        x86_64)  URL="https://github.com/arah99/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_amd64.zip" ;;
+        arm)     URL="https://github.com/arah99/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_arm64.zip" ;;
+        aarch64) URL="https://github.com/arah99/ReverseTlsTunnel/releases/download/V$version/v${version}_linux_arm64.zip" ;;
         *)       echo "Unable to determine system architecture."; exit 1 ;;
     esac
 
