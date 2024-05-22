@@ -53,7 +53,7 @@
  ## روش اول (نصب با اسکریپت)
  
  ```
- bash <(curl -fsSL https://raw.githubusercontent.com/radkesvat/ReverseTlsTunnel/master/scripts/RtTunnel.sh)
+ bash <(curl -fsSL https://raw.githubusercontent.com/arah99/ReverseTlsTunnel/master/scripts/RtTunnel.sh)
  ```
  
  ![1](https://raw.githubusercontent.com/Ptechgithub/configs/main/media/1.jpg)
